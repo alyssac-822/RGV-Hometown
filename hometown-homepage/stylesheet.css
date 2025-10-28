@@ -1,0 +1,34 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 100px;
+}
+.hero {
+    background-image: url('images/downtown.jpg');
+    background-size: 720px 343px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+#title {
+    background-color: #1D3557;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 4px 12px;
+    color: #ffffff;
+}
