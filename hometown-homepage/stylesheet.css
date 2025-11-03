@@ -23,6 +23,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     padding: 50px;
+    margin-bottom: 0px;
 }
 #title {
     background-color: #1D3557;
@@ -31,4 +32,90 @@ img {
     border-radius: 10px;
     padding: 4px 12px;
     color: #ffffff;
+}
+
+#subtitle {
+    background-color: #457B9D;
+    color:#ffffff;
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+}
+
+.activities-title {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 39px 0 54px 0;
+  margin-top: 0px;
+}
+
+.activities{
+    background-color: #F1FAEE;
+    background-size: cover;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.activity h4 {
+    padding-top:0px;
+    margin-top: 0px;
+}
+
+.activity img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.guide {
+  background-color: #A8DADC;
+  margin: 50px 160px;
+  border-radius: 10px;
+  box-shadow: #1D3557 0px 6px 1px;
+  color: #1D3557;
+  display: flex;
+  align-items: center;      /* centers image and text vertically */
+  padding: 20px;            /* internal spacing */
+  max-width: 600px;         /* optional: gives it a business card width */
+  gap: 20px;                /* space between image and text */
+}
+
+/* Only target the image inside .guide */
+.guide img {
+  height: 180px;
+  width: 180px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Right-side text content */
+.guide-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-center; /* align text to the left */
+  gap: 10px;
+}
+
+.guide-text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.guide-text p {
+  font-style: italic;
+  margin: 0;
+}
+
+.guide-text h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
 }
